@@ -7,7 +7,7 @@ import (
 
 func InternalHello(name string) string {
 	data := awesomelib.NewHoge(name)
-	fmt.Println(data.Name)
+	fmt.Println(data.Username)
 
 	return fmt.Sprintf("Hello %s!", name)
 }
